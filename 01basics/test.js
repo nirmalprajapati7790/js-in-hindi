@@ -113,14 +113,88 @@
 // console.log('the value of b is '+ b);
 
 // sol. 4
-var a = 4
-var b = 5
+// var a = 4
+// var b = 5
 
 // output a=5 b=4 swap to number
 
-a = a + b    
-b = a - b    
-a = a - b
+// a = a + b    
+// b = a - b    
+// a = a - b
 
-console.log('the value of a is '+ a);
-console.log('the value of b is '+ b);
+// console.log('the value of a is '+ a);
+// console.log('the value of b is '+ b);
+
+// interview question
+ 
+// different by == and ===
+
+// var x = 5
+// var y = '5'
+
+// console.log(typeof (x));
+// console.log(typeof (y));
+
+// console.log( x == y );
+
+
+// var x = 5
+// var y = '5'
+
+// console.log(typeof (x));
+// console.log(typeof (y));
+
+// console.log( x === y );
+
+
+// 1. if else ************
+
+// var tomr = 'rain'
+
+// if (tomr == 'rain'){
+//    console.log('take a raincoat')
+// }else{
+//     console.log('not take a raincoat')
+// }
+// qustion
+
+// var year = 2030
+// if(year % 4 === 0) {
+//     if(year % 100 === 0) {
+//         if(year %  400 === 0) {
+//             console.log('the year ' + year + ' is leap year');
+        
+//         }else{
+//             console.log('the year ' + year + ' is  not leap year');
+//          }
+        
+//     }else{
+//         console.log('the year ' + year + ' is leap year');
+//     }
+    
+// }else{
+//     console.log('the year ' + year + ' is  not leap year');
+// }
+
+// Sol.2 (0, "", NAN, undefind, false )
+
+// if (score = 0) {
+//     console.log(' Yay! won this match');
+// } else {
+//     console.log('ooh! lost this match');
+// }
+// sol.3 
+// var age = 14
+
+// if (age >= 18) {
+//     console.log('you can vote');
+// } else {
+//     console.log('you cannot vote');
+// }
+
+
+// condition (ternary) operator
+
+
+// var age = 18
+// console.log((age >= 18) ? 'you can vote' : 'you cannot vote');
