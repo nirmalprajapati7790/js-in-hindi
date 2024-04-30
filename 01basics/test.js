@@ -193,8 +193,88 @@
 // }
 
 
-// condition (ternary) operator
+// 3 condition (ternary) operator******
 
 
 // var age = 18
 // console.log((age >= 18) ? 'you can vote' : 'you cannot vote');
+
+
+// var area = 'reatangle';
+// var PI = 3.142, l=5, b=4, r=3;
+
+// if(area == 'circle') {
+//     console.log('the aera of the circle ' + PI*r**2);
+// } else if(area == 'triangle') {
+//     console.log('the aera of the triangle ' + (l*b)/2);
+// } else if(area == 'reatangle'){
+//     console.log('the aera of the reatangle ' + (l*b));
+// }else{
+//     console.log('enter the vaild data');
+// }
+
+
+//  3 switch case ******
+
+// var area = 'reatangle';
+// var PI = 3.142, l=5, b=4, r=3;
+
+
+// switch (area) {
+//     case 'circle':
+//         console.log('the aera of the circle ' + PI*r**2);
+//          break;
+//     case 'triangle':
+//         console.log('the area of the cricle ' + (l*b)/2);
+//         break;
+//     case 'reatangle':
+//         console.log('the area of the cricle ' + (l*b));
+//         break;    
+//     default:
+//         console.log('enter the vaild data');
+//         break;
+// }
+
+// 4 while loop******
+
+//  var num = 1;
+// while (num <= 10) {
+//     console.log(num);
+//     num++;
+// }
+
+// 5 do while loop********
+//  var num = 20;
+// do {
+//     console.log(num);
+//         num++;
+// } while (num <= 10);
+
+
+// 6 for loop *********
+
+// for (let num = 10; num <= 20; num++) {
+//     console.log(num);
+// }
+// challenge time
+
+//  8 ka table
+
+// for (let num = 1; num <= 10; num++) {
+//     var tableOf = 8;
+//     console.log(tableOf + " * " + num + " = " + 8*num);
+// }
+
+// 9 ka table
+
+// for (let num = 1; num <= 10; num++) {
+//     var tableOf = 9;
+//     console.log(tableOf + " * " + num + " = " + 9*num);
+// }
+
+// 12 ka table
+
+// for (let num = 1; num <= 10; num++) {
+//     var tableOf = 12;
+//     console.log(tableOf + " * " + num + " = " + 12*num);
+// }
