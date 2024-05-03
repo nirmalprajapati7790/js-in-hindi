@@ -278,3 +278,95 @@
 //     var tableOf = 12;
 //     console.log(tableOf + " * " + num + " = " + 12*num);
 // }
+
+// ###### functions ********
+
+
+// 1 function definition
+
+// function sum() {
+//     let a = 10; b = 20;
+//     let total = a+b;
+//     console.log(total);
+// }
+
+
+
+// 2 calling a function*****
+
+// function sum() {
+//     let a = 10; b = 20;
+//     let total = a+b;
+//     console.log(total);
+// }
+// sum();
+
+// function perameter vs function argument
+
+// function sum( a, b ) {
+//         let total = a+b;
+//         console.log(total);
+//     }
+//      sum (10, 20)
+//      sum( 12, 10)
+//      sum(2332, 12)
+
+// interview time $$ why functions
+    //    function sum( a, b ) {
+    //         let total = a+b;
+    //         console.log(total);
+    //     }
+ 
+    //     var funExp = sum(12, 12)
+
+// 5 return keyword in funtion
+
+// function sum( a, b ) {
+//     return total = a+b;
+
+// }
+
+// var funExp = sum(12, 12)
+// console.log('two number sum is ' + funExp);
+
+// 6 anonymous function
+
+// var funExp = function( a, b ) {
+//         return total = a+b;
+//      }
+//    var   sum = (12, 12)
+//    var  sum1 = (23, 23)
+
+//      console.log(sum < sum1);
+
+
+                            // ***** welcome to ECMA script *****
+                            
+// var myName = 'nirmal'
+// console.log(myName); 
+
+// myName = 'prajapat'
+// console.log(myName);
+
+// let  myName = 'nirmal'
+// console.log(myName);
+
+// myName = 'nirmal'
+// console.log(myName);
+
+// const myName = 'nirmal'
+// console.log(myName);
+
+// myName = 'prajapt'
+// console.log(myName);
+
+function boidata(){
+    const myFirstName = 'nirmal'
+    console.log(myFirstName)
+
+    if(ture){
+        const myLastName = 'prajapat'
+    }
+}
+console.log(myFirstName);
+boidata();
