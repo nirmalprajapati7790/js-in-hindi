@@ -360,13 +360,58 @@
 // myName = 'prajapt'
 // console.log(myName);
 
-function boidata(){
-    const myFirstName = 'nirmal'
-    console.log(myFirstName)
+// function boidata(){
+//     const myFirstName = 'nirmal'
+//     console.log(myFirstName)
 
-    if(ture){
-        const myLastName = 'prajapat'
-    }
+//     if(ture){
+//         const myLastName = 'prajapat'
+//     }
+// }
+// console.log(myFirstName);
+// boidata();
+
+// 2 template literals (template String)
+
+
+// for(let num = 1; num <= 10; num++){
+//     let tableOf = 12;
+//     console.log(tableOf + " * " + num  + " = " + tableOf*num);
+// }
+// out 12 * 1 = 12
+// 12 * 2 = 24
+// 12 * 3 = 36
+// 12 * 4 = 48
+
+// 3 default perameters
+
+// function mult( a,b=10 ){
+//     return a*b;
+    
+// }
+// console.log(mult(10));
+
+// 6 Fat Arror function***
+
+// normal form of a function sum\\\\\\\\\\\
+
+// console.log(sum());
+
+// function sum() {
+//     let a = 2; b = 3;
+//     let sum = a+b;
+   
+//     console.log("sum of two number " + sum);
+    
+// }
+
+// convrt into fat arror function 
+
+const sum = () => {
+    let a = 2; b = 3;
+    console.log("sum of two number " + ((a=2)+ (b=3)));
 }
-console.log(myFirstName);
-boidata();
+
+console.log(sum());
+
+// **************section 7 Arrays in javascript**************
