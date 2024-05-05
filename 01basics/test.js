@@ -407,11 +407,52 @@
 
 // convrt into fat arror function 
 
-const sum = () => {
-    let a = 2; b = 3;
-    console.log("sum of two number " + ((a=2)+ (b=3)));
-}
+// const sum = () => {
+//     let a = 2; b = 3;
+//     console.log("sum of two number " + ((a=2)+ (b=3)));
+// }
 
-console.log(sum());
+// console.log(sum());
 
 // **************section 7 Arrays in javascript**************
+
+// var myName = ['nirmal', 'ajay', 'golu', 'viny']
+
+// console.log(myName[myName.length-1]);
+
+// console.log(myName.length);
+
+// use to for loop
+
+// let myName = ['nirmal', 'ajay', 'golu', 'viny']
+
+// for (let i = 0; i < myName.length; i++) {
+    
+//     console.log(myName[i]);
+// }
+// use to for in loop
+
+// let myName = ['nirmal', 'ajay', 'golu', 'viny']
+
+// for (let element in myName) {
+    
+//         console.log(element);
+//     }
+
+// use to for of loop
+
+// let myName = ['Nirmal', 'Ajay', 'Golu', 'Viny']
+
+// for (let Element of myName ) {
+//     console.log(Element);
+    
+// }
+
+// use in array.prototype.foreach 
+
+let myName = ['Nirmal', 'Ajay', 'Golu', 'Viny']
+
+ myName.forEach(function (element, index, Array){
+    
+    console.log(element + ' index' + ' : ' + index +"  "+ Array);
+});
