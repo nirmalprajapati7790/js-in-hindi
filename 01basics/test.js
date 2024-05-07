@@ -450,9 +450,101 @@
 
 // use in array.prototype.foreach 
 
-let myName = ['Nirmal', 'Ajay', 'Golu', 'Viny']
+// let myName = ['Nirmal', 'Ajay', 'Golu', 'Viny']
 
- myName.forEach(function (element, index, Array){
+//  myName.forEach(function (element, index, Array){
     
-    console.log(element + ' index' + ' : ' + index +"  "+ Array);
+//     console.log(element + ' index' + ' : ' + index +"  "+ Array);
+// });
+
+// faat arorr function 
+
+// let myName = ['Nirmal', 'Ajay', 'Golu', 'Viny']
+
+//  myName.forEach((element, index, Array) => {
+    
+//     console.log(element + ' index' + ' : ' + index +"  "+ Array);
+// });
+
+
+
+
+
+// Array . prototype. push()
+
+// const animals = ['goat', 'pigs', 'sheep'];
+
+// const count = animals.push('cows', 'cat', 'hen');
+// console.log(animals);
+// console.log(count);
+
+
+// Array . prototype. pop()
+
+// const animals = ['goat', 'pigs', 'sheep', 'cows'];
+
+// animals.pop('cows');
+// console.log(animals);
+
+// Array.prototype.shift
+
+// const animals = ['goat', 'pigs', 'sheep', 'cows'];
+
+// animals.shift()                        // jo first Element hai us ko delete kar deta hai
+// console.log(animals);
+
+
+// Array.prototype.unshift
+
+// const animals = ['goat', 'pigs', 'sheep', 'cows'];
+
+// animals.unshift('cats', 'cows', 'many more')
+
+// console.log(animals);
+
+// 2nd example 
+
+// const number = [1, 2, 3, 5, ]
+
+// number.unshift(4, 6);
+// console.log(number);
+
+// challenge time
+
+// const months = ['jan', 'march', 'june', 'july'];
+
+// sol.1
+
+// const newMonth = months.splice(5, 0, 'dec');
+// console.log(months);
+
+// sol.2
+// const newMonth = months.splice(5, 0, 'dec');
+// console.log(newMonth);
+
+// sol.3 
+// const newMonth = months.splice(1, 1, 'March');
+// console.log(months);
+
+// sol.4
+
+// const newMonth = months.splice( 2, 1);
+// console.log(months);
+
+                //   ***************map of reduce methods*************same  use of react**********************************
+
+// Array. prototype. Map()
+
+const array1 = [ 1, 2, 3, 4, 12, 17]
+
+// let newArr = array1.map(( element, indix, arr) =>{
+//     return  element < 5;
+// });
+// console.log(array1);
+// console.log(newArr)
+
+let newArr = array1.map(( element, index, arr) =>{
+    return 'index no.' + ' = ' + index + ' and the value is ' + element + ' belong to ' + arr;
 });
+
+console.log(newArr);
